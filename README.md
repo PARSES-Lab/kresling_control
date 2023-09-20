@@ -1,2 +1,2 @@
-# kresling_control
-Major project hub for the capacitance driven Kresling origami project.
+# Slurp Website 
+https://river-lab.github.io/slurp_grasping/
