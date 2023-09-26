@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: "HYPER DRIVE"
+description: "Kresling"
 permalink: /
 ---
 
@@ -12,17 +12,17 @@ permalink: /
   <meta charset="UTF-8">
   <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
   <!--<link rel="stylesheet" href="style.css"> -->
-  <title><b>Hyper-Drive</b>: Visible-Short Wave Infrared Hyperspectral Imaging Data Sets for Robots in Unstructured Environments</title>
+  <title><b>Kresling</b> Control </title>
 </head>
 <body>
   <div class="header-adder">
     <div class="title_set">
-      <h1 style="text-align: center;"><strong>Hyper-Drive</strong> Visible-Short Wave Infrared Hyperspectral Imaging Data Sets for Robots in Unstructured Environments
+      <h1 style="text-align: center;"><strong>Kresling</strong> Control
       </h1>
     </div>
     <div class="names">
-      <p style="text-align: center;"><strong><a href="https://nhanson.io/">Nathaniel Hanson<sup>1*</sup></a>, Benjamin Pyatski<sup>1</sup>, <a href="https://www.samuelhibbard.com/">Samuel Hibbard<sup>1</sup></a>, <a href="https://coe.northeastern.edu/people/dimarzio-charles/">Charles DiMarzio<sup>2</sup></a>, <a href="https://coe.northeastern.edu/people/padir-taskin/">Taşkin Padir<sup>1</sup></a></strong></p>
-      <p style="text-align: center;"><strong>Institute for Experiential Robotics<sup>1</sup>, Electrical and Computer Engineering Department<sup>2</sup></strong></p>
+      <p style="text-align: center;"><strong><a href="https://nhanson.io/">Kristen L. Dorsey<sup>1*</sup></a>, Benjamin Pyatski<sup>1</sup>, <a href="https://www.samuelhibbard.com/">Samuel Hibbard<sup>1</sup></a>, <a href="https://coe.northeastern.edu/people/dimarzio-charles/">Charles DiMarzio<sup>2</sup></a>, <a href="https://coe.northeastern.edu/people/padir-taskin/">Taşkin Padir<sup>1</sup></a></strong></p>
+      <p style="text-align: center;"><strong>PARSES Lab<sup>1</sup>, Electrical and Computer Engineering Department<sup>2</sup></strong></p>
       <p style="text-align: center;"><strong>Northeastern University, Boston, MA, USA</strong></p>
       </div>
   </div>
@@ -30,9 +30,9 @@ permalink: /
   <div>
     <div style="position:relative;padding-top:0%;">
       <figure>
-      <img src="images/mast_field_studies.png" alt="Warthog in the field">
+      <img src="images/test_seutp.jpg" alt="Kresling in test set up">
         <figcaption>
-            Hyperdrive system mounted to Clearpath robotics Warthog embarking on a field data collection.
+            Kresling set up in test setting.
         </figcaption>
   </figure>
     </div>
