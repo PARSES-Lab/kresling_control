@@ -30,7 +30,7 @@ permalink: /
   <div>
     <div style="position:relative;padding-top:0%;">
       <figure>
-      <img src="images/Kresling in setup.jpg" alt="Kresling in test set up">
+      <img src="images/test_seutp.jpg" alt="Kresling in test set up">
         <figcaption>
             Expanded Kresling set up in test setting.
         </figcaption>
