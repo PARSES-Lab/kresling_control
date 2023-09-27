@@ -21,8 +21,8 @@ permalink: /
       </h1>
     </div>
     <div class="names">
-      <p style="text-align: center;"><strong><a href="http://www.kristendorsey.com/">Kristen L. Dorsey<sup>1*</sup></a>,<a href="https://www.linkedin.com/in/immanuelampomah/"> Immanuel Ampomah Mensah<sup>1</sup></a>, Sonia F. Roberts<sup>2</sup>, <a href="https://www.linkedin.com/in/ashwu-0/">Celina Wu<sup>1</sup></a>, <a href="https://www.jesshealey.net/">Jessica Healey<sup>1</sup></a></strong></p>
-      <p style="text-align: center;"><strong>PARSES Lab<sup>1</sup>, Electrical and Computer Engineering Department<sup>2</sup>Donelle Furline, Jr.<sup>1</sup></strong></p>
+      <p style="text-align: center;"><strong><a href="http://www.kristendorsey.com/">Kristen L. Dorsey<sup>1*</sup></a>,<a href="https://nhansion.io">Nathaniel Hanson<sup>1</sup></a>,<a href="https://www.linkedin.com/in/immanuelampomah/"> Immanuel Ampomah Mensah<sup>1</sup></a>, Sonia F. Roberts<sup>2</sup>, <a href="https://www.linkedin.com/in/ashwu-0/">Celina Wu<sup>1</sup></a>, <a href="https://www.jesshealey.net/">Jessica Healey<sup>1</sup></a></strong></p>, Donelle Furline, Jr.<sup>1</sup></strong></p>
+      <p style="text-align: center;"><strong>PARSES Lab<sup>1</sup>, Electrical and Computer Engineering Department<sup>2</sup>
       <p style="text-align: center;"><strong>Northeastern University, Boston, MA, USA</strong></p>
       </div>
   </div>
