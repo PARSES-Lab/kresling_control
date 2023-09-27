@@ -21,8 +21,8 @@ permalink: /
       </h1>
     </div>
     <div class="names">
-      <p style="text-align: center;"><strong><a href="https://nhanson.io/">Kristen L. Dorsey<sup>1*</sup></a>, Benjamin Pyatski<sup>1</sup>, <a href="https://www.samuelhibbard.com/">Samuel Hibbard<sup>1</sup></a>, <a href="https://coe.northeastern.edu/people/dimarzio-charles/">Charles DiMarzio<sup>2</sup></a>, <a href="https://coe.northeastern.edu/people/padir-taskin/">Taşkin Padir<sup>1</sup></a></strong></p>
-      <p style="text-align: center;"><strong>PARSES Lab<sup>1</sup>, Electrical and Computer Engineering Department<sup>2</sup></strong></p>
+      <p style="text-align: center;"><strong><a href="https://nhanson.io/">Kristen L. Dorsey<sup>1*</sup></a>, Immanuel Ampomah Mensah<sup>1</sup>, <a href="https://www.samuelhibbard.com/">Sonia F. Roberts<sup>2</sup></a>, <a href="https://coe.northeastern.edu/people/dimarzio-charles/">Celina Wu<sup>1</sup></a>, <a href="https://coe.northeastern.edu/people/padir-taskin/">Jessica Healey<sup>1</sup></a></strong></p>
+      <p style="text-align: center;"><strong>PARSES Lab<sup>1</sup>, Electrical and Computer Engineering Department<sup>2</sup>Donelle Furline, Jr.<sup>1</sup></strong></p>
       <p style="text-align: center;"><strong>Northeastern University, Boston, MA, USA</strong></p>
       </div>
   </div>
@@ -52,7 +52,7 @@ permalink: /
 </div>
 
   <p>
-    <a href="https://github.com/RIVeR-Lab/hyper_drive_data/tree/main">Link to the Github</a>
+    <a href="https://github.com/PARSES-Lab/kresling_control/tree/main">Link to the Github</a>
   </p>
 </body>
 </html>
