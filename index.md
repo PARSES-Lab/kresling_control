@@ -58,52 +58,5 @@ closed-loop feedback position control without visual tracking as
 an input. This approach to capacitance sensing and modeling
 constitutes a major step towards proprioceptive state estimation and feedback control in soft origami robotics.
   </p>
- 
-<div style="text-align: center;">
-  <figure>
-  
-      <img src="images/system_architecture_mast_WHISPERS.png" alt="HYPER DRIVE System Architecture">
-    <figcaption>
-    Hyper-Drive system mounted to off-road mobile robot, with sample data representations of white reference target from a) the Visible to Near Infrared (VNIR) hyperspectral camera b) Shortwave Infrared hyperspectral camera c) High resolution RGB camera d) Combined point spectrometers.
-    </figcaption>
-  </figure>
-</div>
 
-  <p>
-    <a href="https://github.com/PARSES-Lab/kresling_control/tree/main">Link to the Github</a>
-  </p>
-</body>
-</html>
-### [ArXiv Link Coming Soon!]()
-### Bibtex
-We hope this data benefits the integration of autonomy and hyperspectral imaging. If you use any of the data or methods from this project, please include this citation in your bibliography.
- ```
-@misc{hanson2023hyperdrive,
-  author = {Hanson, Nathaniel and Pyatski, Benjamin and Hibbard, Samuel and DiMarzio, Charles and Padır, Taşkın},
-  keywords = {Robotics (cs.RO), Signal Processing (eess.SP), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Electrical engineering, electronic engineering, information engineering},
-  title = {Hyper-Drive: Visible-Short Wave Infrared Hyperspectral Imaging Data Sets for Robots in Unstructured Environments},
-  year = {2023},
-  copyright = {Creative Commons Attribution 4.0 International}
-}
-
-```
-Correspondence: hanson [.] n [@] northeastern [.] edu
-
-
-### Acknowledgements
-Many thanks to the following collaborators for helping to organize and label this data:
-* James Tukpah
-* Austin Allison
-* Rania Alshawabkeh
-* Muneer Lalji
-
-
-Funding Attribution:
-```
-Research was sponsored by the United States Army Core of Engineers (USACE) Engineer Research and Development Center (ERDC)
-Geospatial Research Laboratory (GRL) and was accomplished under 
-Cooperative Agreement Federal Award Identification Number (FAIN) W9132V-22-2-0001. 
-The views and conclusions contained in this document are those of the authors 
-and should not be interpreted as representing the official policies, either expressed or implied,
-of USACE EDRC GRL or the U.S. Government. The U.S. Government is authorized to reproduce and distribute reprints for Government purposes notwithstanding any copyright notation herein.
 ```
