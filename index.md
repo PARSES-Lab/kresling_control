@@ -38,7 +38,27 @@ permalink: /
     </div>
   </div>
   <h2>Abstract</h2>
-  <p>Towards automated analysis of large environments, hyperspectral sensors must be adapted into a format where they can be operated from mobile robots. In this work, we introduce a first of its kind system architecture with snapshot hyperspectral cameras and point spectrometers to efficiently generate composite datacubes from robotic base. Our system collects and registers datacubes spanning the visible to shortwave infrared (660-1700 nm) spectrum while simultaneously capturing the ambient solar spectrum reflected off a white reference tile. We collect and disseminate a large data set of 500 labeled datacubes from on-road and off-road terrain compliant with the ATLAS ontology to further the integration and demonstration of hyperspectral imaging (HSI) as beneficial in terrain class separability. Our analysis of this data demonstrates HSI is a significant opportunity to increase understanding of scene composition from a robot-centric context.
+  <p>As soft roboticists further investigate approaches
+to position or force feedback control, accurate and embodied
+proprioception (i.e., self-sensing) will become more important
+to the control of soft robots in unstructured environments.
+In this work, we demonstrate proprioceptive feedback control
+of a soft, pneumatically-actuated origami robot. The robot
+is a 41 mm long, 3-D printed Kresling-inspired structure
+with six sets of sidewall folds and one degree of freedom.
+Pneumatic actuation, provided by negative fluidic pressure,
+causes the robot to contract. Capacitive sensors patterned onto
+the robot provide position estimation and serve as input to
+a feedback controller. Using a finite element approach, the
+electrode shapes were optimized for sensitivity at larger (more
+obtuse) fold angles to improve control across the actuation
+range. We demonstrate stable position control through a series
+of contraction set points from 2 mm to 16 mm, with error under
+3 mm up to 10 mm contraction. Overall, this work contributes
+optimized capacitive electrode design and the demonstration of
+closed-loop feedback position control without visual tracking as
+an input. This approach to capacitance sensing and modeling
+constitutes a major step towards proprioceptive state estimation and feedback control in soft origami robotics.
   </p>
  
 <div style="text-align: center;">
