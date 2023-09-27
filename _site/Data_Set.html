@@ -1,0 +1,98 @@
+<h1 id="data-set">Data Set</h1>
+
+<h2 id="raw-data">Raw Data</h2>
+
+<p>The raw data from each of the collections onboard the robot was collected as a ROS bagfile. These files are very large (10+ GB) and contain time synchronized messages from the cameras, onboard fiber optic inertial measurement unit (IMU), and point spectrometers. Due to the massive amount of data, and the enormous human effort required to segment these 12,874 images, we have left the majority of unlabeled, but available to the research community.</p>
+
+<h2 id="bag-file-list">Bag File List</h2>
+<div class="code-example">
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: left">Bag</th>
+        <th style="text-align: left">Description</th>
+        <th style="text-align: left"># HSI Images</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: left"><a href="https://robot.neu.edu/uploads/hyper_drive/olin_collection_05_15_23_parcel_b.bag">olin_collection_05_15_23_parcel_b.bag</a></td>
+        <td style="text-align: left">Off-road collection, daytime</td>
+        <td style="text-align: left">2068</td>
+      </tr>
+      <tr>
+        <td style="text-align: left"><a href="https://robot.neu.edu/uploads/hyper_drive/olin_collection_05_15_23_parcel_b_v2.bag">olin_collection_05_15_23_parcel_b_v2.bag</a></td>
+        <td style="text-align: left">Off-road collection, daytime</td>
+        <td style="text-align: left">923</td>
+      </tr>
+      <tr>
+        <td style="text-align: left"><a href="https://robot.neu.edu/uploads/hyper_drive/olin_collection_05_15_23_parcel_b_v3.bag">olin_collection_05_15_23_parcel_b_v3.bag</a></td>
+        <td style="text-align: left">Off-road collection, daytime</td>
+        <td style="text-align: left">1117</td>
+      </tr>
+      <tr>
+        <td style="text-align: left"><a href="https://robot.neu.edu/uploads/hyper_drive/olin_collection_05_15_23_parcel_b_v4.bag">olin_collection_05_15_23_parcel_b_v4.bag</a></td>
+        <td style="text-align: left">Off-road collection, daytime</td>
+        <td style="text-align: left">1294</td>
+      </tr>
+      <tr>
+        <td style="text-align: left"><a href="https://robot.neu.edu/uploads/hyper_drive/olin_collection_05_16_23_campus.bag">olin_collection_05_16_23_campus.bag</a></td>
+        <td style="text-align: left">On-road collection, mid-morning</td>
+        <td style="text-align: left">3590</td>
+      </tr>
+      <tr>
+        <td style="text-align: left"><a href="https://robot.neu.edu/uploads/hyper_drive/olin_collection_05_16_23_parcel_b.bag">olin_collection_05_16_23_parcel_b.bag</a></td>
+        <td style="text-align: left">Off-road collection, dawn</td>
+        <td style="text-align: left">2556</td>
+      </tr>
+      <tr>
+        <td style="text-align: left"><a href="https://robot.neu.edu/uploads/hyper_drive/olin_collection_05_16_23_parcel_b_v2.bag">olin_collection_05_16_23_parcel_b_v2.bag</a></td>
+        <td style="text-align: left">Off-road collection, dawn</td>
+        <td style="text-align: left">1326</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<p>After downloading a bag file, start a <code class="language-plaintext highlighter-rouge">roscore</code> instance and begin the playback of messages with <code class="language-plaintext highlighter-rouge">rosbag plag &lt;&lt;BAGFILENAME&gt;&gt;</code></p>
+
+<p class="note">These data cubes exist currently as digital count measurements. They will be converted to reflectance in the near future via an in-development method that leverages the included spectrometer measurement.</p>
+
+<h2 id="labeled-data">Labeled data</h2>
+
+<p>504 images evenly distributed from each of the above bag files has been extracted and labeled.</p>
+
+<p>The directory structure for the labeled data follows a structured format:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>│
+├── INSTANCE_LABELS/
+│   ├── xxx.json # Image labels according to the ATLAS ontology
+├── RGB_RAW/
+│   ├── xxx.jpg # Raw RGB image of scene
+├── SEGMENTATIONS_RAW/
+│   ├── xxx.png # Semantic segmentation masks for each image, where each pixel is the class index
+├── SOLAR_SPECTRA/
+│   ├── xxx.npy # Spectra of observed solar illumination in numpy format
+├── SWIR_RAW/
+│   ├── xxx.npy # SWIR hyperspectral datacube in numpy format
+└── VNIR_RAW/
+    └───xxx.npy # VNIR hyperspectral datacube in numpy format
+</code></pre></div></div>
+<p>Each file is named with a structured format across each of the data folders.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bagfile_name_index.file_extension
+</code></pre></div></div>
+<p>Essentially, each data item is named in such as way that it can be traced back to the bag file that it came from, and the number of the sample from within that bag file. Correlating that name across the folders allows the retrieval of the full data record.</p>
+
+<h3 id="generating-registered-data">Generating Registered Data</h3>
+<p>For the purposes of data compression, the data is stored in an unregistered format. Running the following files locally will create a registered hyperspectral datacube for each of the labeled instances.</p>
+
+<p class="highlight">The registration process generates datacubes that are ~80 MB each. Altogether, the full labeled dataset is ~40 GB. Make sure you have enough free space locally before executing the script!</p>
+
+<p>The Jupyter Notebook <a href="https://github.com/RIVeR-Lab/hyper_drive_data/blob/main/Register_HSI.ipynb"><code class="language-plaintext highlighter-rouge">Register_HSI.ipynb</code></a> contains the functions needed to process the two hyperspectral datacubes into a single datacube. This file also appropriately crops the high-res RGB image and segmentation labels.</p>
+
+<h3 id="regenerating-system-homographies">Regenerating System Homographies</h3>
+
+<p>Registering the hyperspectral cameras is a challenging process, as their resolution is an order of magnitude less than the RGB camera. The folder <code class="language-plaintext highlighter-rouge">calibration</code> contains images from all three cameras with a precision checkerboard present. We used <a href="https://github.com/Kitware/keypointgui">keypointgui</a> to manually find corresponding features. The two output homographies are saved as <code class="language-plaintext highlighter-rouge">.txt</code> files in the <code class="language-plaintext highlighter-rouge">calibration</code> folder.</p>
