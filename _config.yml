@@ -19,7 +19,7 @@ callouts:
     color: red
 
 aux_links:
-  "HYPER DRIVE on GitHub":
+  "Kresling Control on GitHub":
     - "https://github.com/PARSES-Lab/kresling_control/tree/main"
 
 nav_external_links:
