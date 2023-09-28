@@ -1,0 +1,7 @@
+<launch>
+
+  <node pkg="sensors" name="capacitance_node" type="capacitance_read.py" output="screen"/>
+  
+  <node pkg="controllers" name="capacitance_subscriber_node" type="hold_set_point.py" output="screen"/>
+  
+</launch>
