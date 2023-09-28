@@ -8,5 +8,5 @@ layout: default
 
 Datasets are available through the Northeastern University Digital Repository Service at: ['Datasets'](https://repository.library.northeastern.edu/collections/neu:h989s3917)
 
-![Alt Text](images/Data_Set_1.png)
-![Alt Text](images/Data_Set_2.png)
+![Alt Text](images/Data_Set_1.PNG)
+![Alt Text](images/Data_Set_2.PNG)
