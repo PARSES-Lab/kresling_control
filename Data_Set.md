@@ -6,7 +6,7 @@ layout: default
 
 ## Raw Data
 
-The raw data from each of the collections onboard the robot was collected as a ROS bagfile. These files are very large (10+ GB) and contain time synchronized messages from the cameras, onboard fiber optic inertial measurement unit (IMU), and point spectrometers. Due to the massive amount of data, and the enormous human effort required to segment these 12,874 images, we have left the majority of unlabeled, but available to the research community.
+Datasets are available through the Northeastern University Digital Repository Service at: ['Datasets'](http://hdl.handle.net/2047/D20603056)
 
 ## Bag File List
 <div class="code-example" markdown="1">
