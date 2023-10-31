@@ -59,3 +59,4 @@ an input. This approach to capacitance sensing and modeling
 constitutes a major step towards proprioceptive state estimation and feedback control in soft origami robotics.
   </p>
 
+![Alt Text](images/TESTvideo.mp4)
