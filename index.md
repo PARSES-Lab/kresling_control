@@ -69,3 +69,14 @@ constitutes a major step towards proprioceptive state estimation and feedback co
         </figcaption>
       </figure>
   </div>
+
+ <div>
+    <div style="position:relative;padding-top:0%;">
+      <figure>
+      <video src="images/Case_Balance.mp4" alt="Balance Board Case Study" style="max-width: 730px;" controls="controls">
+      </video>
+        <figcaption>
+            Balance Board Case Study.
+        </figcaption>
+      </figure>
+  </div>
