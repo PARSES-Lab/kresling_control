@@ -62,7 +62,7 @@ constitutes a major step towards proprioceptive state estimation and feedback co
   <div>
     <div style="position:relative;padding-top:0%;">
       <figure>
-      <video src="images/TESTvideo.mp4" alt="RAL Submission">
+      <video src="images/TESTvideo.mp4" alt="RAL Submission" style="max-width: 730px;" controls="controls">
       </video>
         <figcaption>
             RAL submission.
